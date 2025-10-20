@@ -1,13 +1,13 @@
 name: Monika Mann
 
 on:
- push:
-   branches: [main]
+  push:
+    branches: [main]
    
 jobs:
- demo:
-   runs-on: ubuntu-latest
+  demo:
+    runs-on: ubuntu-latest
 
-   steps:
-      name: Greetings
-      run: echo "hello from Monika"
+    steps:
+      - name: Greetings
+        run: echo "hello from Monika"
