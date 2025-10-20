@@ -2,7 +2,8 @@ name: Monika Mann
 
 on:
  push:
-   branches:[main]
+   branches: [main]
+   
 jobs:
  demo:
    runs-on: ubuntu-latest
